@@ -1,0 +1,97 @@
+.page-header{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: solid 3px #417f9c;
+    line-height: 1px;
+    color: #417f9c;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: bold;
+}
+.page-header small{
+    background-color: #417f9c;
+    color: white;
+    padding: 8px 8px 4px;
+    position: relative;
+    font-size: 13px;
+    top: -7px;
+    margin-bottom: 20px;
+}
+.navbar-brand{
+color:white!Important;
+font-weight:bold!important;
+}
+.panel{
+border:0!important;
+}
+.panel-heading{
+    background: #417f9c!important;
+    color: white!important;
+    border-radius: 6px 6px 1px 1px!important;
+    border: 0!important;
+}
+.posts-home{
+    margin: 10px 0 0 0;
+    transition:.3s;
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+}
+.posts-home a{
+    display: block;
+    padding: 0 0 9px 0;
+    text-decoration: none!important;
+    position: relative;
+    background: rgba(0, 0, 0, 0.06);
+    border-bottom: 1px solid rgba(51, 51, 51, 0.28);
+}
+.posts-home a img{
+
+}
+.posts-home .content_post{
+    padding: 0 17px;
+}
+.posts-home .color_this{
+color:#333;
+}
+.posts-home:hover a{
+    background:#333;
+    transition:.3s;
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+}
+.posts-home:hover .color_this{
+    color:white;
+    transition:.3s;
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+}
+.posts-home h2{
+    font-size: 21px!important;
+    font-weight: bold!important;
+    margin: 27px 0 0 0!important;
+}
+.posts-home .bton{
+position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    height: 30px;
+    margin: auto 0;
+    color: #fff;
+    font-size: 131%;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #000;
+    -webkit-text-shadow: 1px 1px 3px #000;
+    -moz-text-shadow: 1px 1px 3px #000;
+}
+.button_viewmore{
+    width: 100%;
+    display: block;
+    border: 0;
+    padding: 7px 2px;
+    font-size: 25px;
+    margin: 27px 0 -20px 0;
+    border-radius: 0!important;
+    text-transform: uppercase;
+    font-weight: bold;
+}

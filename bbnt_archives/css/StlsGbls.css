@@ -1,0 +1,51 @@
+*{margin:0;padding:0;} li, ul, ol{list-style: none;}
+body{padding:0;margin:0px 0px 0px 0px;line-height:1.3em;font-size:13px;font-family:"Roboto",Verdana,Tahoma,serif!important;overflow-x:hidden;direction:ltr;unicode-bidi:embed;background:#EEEEEE;cursor:auto;}
+@font-face{font-family:'icons-lgts';src:url('//wortit.net/css/code/request/fonts/lgts/LigatureSymbols-2.11.eot');src:url('//wortit.net/css/code/request/fonts/lgts/LigatureSymbols-2.11.eot?#iefix') format('embedded-opentype'), url('//wortit.net/css/code/request/fonts/lgts/LigatureSymbols-2.11.woff') format('woff'), url('//wortit.net/css/code/request/fonts/lgts/LigatureSymbols-2.11.ttf') format('truetype'), url('//wortit.net/css/code/request/fonts/lgts/LigatureSymbols-2.11.svg#LigatureSymbols') format('svg');src:url('//wortit.net/css/code/request/fonts/lgts/LigatureSymbols-2.11.ttf') format('truetype');font-weight:normal;font-style:normal;}
+.lsf, .lsf-icon:before{font-family:'icons-lgts';-webkit-text-rendering:optimizeLegibility;-moz-text-rendering:optimizeLegibility;-ms-text-rendering:optimizeLegibility;-o-text-rendering:optimizeLegibility;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-ms-font-smoothing:antialiased;-o-font-smoothing:antialiased;font-smoothing:antialiased;}
+.lsf-icon:before{content:attr(title);margin-right:0.3em;font-size:130%;}
+.dsnone{display:none;}
+#headtotalhe{margin-top:30px;background:#EEEEEE;}
+#principalcont{width:auto;min-height:577px;overflow:hidden;background:rgba(169, 167, 165, 0.08);}
+.floatL{float:left;}.floatR{float:right;}
+.hidden{overflow:hidden;}.pborder{padding:0px 7px;}.size11{font-size:11px;}
+#error_flat{padding:15px;margin-bottom:20px;border:1px solid transparent;border-radius:4px;color:#c09853;background-color:#fcf8e3;border-color:#faebcc;}
+#error{background:#FFF2C8;border:1px solid #EEC775;border-radius:4px;color:#816800;font-weight:bold;font-size:13px;text-align:center;padding:10px 5px;margin:4px 0 8px 0;}
+.inputnone{bottom:0;cursor:inherit;font-size:1000px !important;height:300px;margin:0;opacity:0;padding:0;position:absolute;right:0;}
+#loading{display:none;top:124px;z-index:1000000000000;pointer-events:none;position:fixed;width:100%;}
+#loading .content{text-align:center;padding:0;min-height:1.375em;position:relative;line-height:100%;z-index:auto;}
+#loading .content .bbos{pointer-events:auto;position:relative;display:-moz-inline-box;display:inline-block;z-index:1111;}
+#loading .content .bbos .titl{height:inherit;box-shadow:0 1px 3px rgba(0,0,0,.2);background:#fff1a8;font-weight:bold;border:3px solid transparent;text-align:center;border-color:#fff1a8;color:#000;font-size:13px;min-width:200px;padding:9px 15px 0 15px;line-height:1.3em;padding-bottom:9px;}
+#mydialog{display:none;z-index:10000000;left:0;min-height:100%;height:103%;position:fixed;right:0;top:43px;bottom:0;overflow-x:scroll;overflow-y:auto;}
+#mask{display:none;background:rgba(41,47,51,0.9);width:100%;height:100%;overflow:hidden;position:fixed;opacity:0.5;z-index:900;top:0;filter:Alpha(Opacity=75);}
+@-webkit-keyframes pulsate{0%{-webkit-transform:scale(0.1,.1);opacity:.3}50%{opacity:.8}100%{-webkit-transform:scale(1.2,1.2);opacity:0}}@-moz-keyframes pulsate{0%{-moz-transform:scale(0.1,.1);opacity:.3}50%{opacity:.8}100%{-moz-transform:scale(1.2,1.2);opacity:0}}@keyframes pulsate{0%{transform:scale(0.1,.1);opacity:.3}50%{opacity:.8}100%{transform:scale(1.2,1.2);opacity:0}}
+.pulsa{    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #f44336;
+    top: 53%;
+    left: 69%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin-left: -6px;
+    border: 2px solid #2b2b2b;
+    display: block;
+    border: 0;
+    top: 37%;
+    left: 118%;}
+.pelse{
+
+    border: 7px solid #f44336;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    opacity: 0;
+    -webkit-animation: pulsate 1.8s ease-out infinite;
+    -moz-animation: pulsate 1.8s ease-out infinite;
+    animation: pulsate 1.8s ease-out infinite;
+}

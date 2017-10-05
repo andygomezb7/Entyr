@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family:Roboto;
+    background:#FFF!important;
+}
+
+.download_services{
+    width: 99%;
+    height: 98%;
+    border: 1px solid #fbf5f5;
+    padding: 8px 5px;
+    box-sizing: border-box;
+    position: relative;
+    background-size: 132% 100%;
+    color: white;
+    width: 100%;
+    height: 100%;
+    cursor:pointer!important;
+}
+
+.download_services .service_footer{
+position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 5px 4px 0;
+    font-size: 10px;
+    color: gray;
+    opacity: 0.3;
+}
+
+.download_services.service_1 .service_contendor{
+width: 100%;
+}
+
+.download_services .oktu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.28);
+}
+.download_services:hover .oktu{
+background:transparent!important;
+}
+
+.download_services.service_1 .service_contendor .btn_s{
+width: 83%;
+    height: 25px;
+    padding: 11px 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #3F51B5;
+    color: white;
+    font-size: 20px;
+    border: 1px solid #192c96;
+    border-radius: 4px;
+cursor:pointer!important;
+text-align:center;
+-webkit-text-align:center;
+-moz-text-align:center;
+text-decoration:none;
+transition:.3s;
+-webkit-transition:.3s;
+-moz-transition:.3s;
+}
+
+.download_services.service_1 .service_contendor .btn_s:hover{
+cursor:pointer!important;text-decoration:none;
+text-shadow: 1px 0px 4px #000;
+-webkit-text-shadow: 1px 0px 4px #000;
+-moz-text-shadow: 1px 0px 4px #000;
+transition:.3s;
+-webkit-transition:.3s;
+-moz-transition:.3s;
+}
