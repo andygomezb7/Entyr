@@ -14,8 +14,8 @@
 |	['database'] The name of the database you want to connect to
 */
 $db['hostname'.$securekey['k']] = 'localhost';
-$db['username'.$securekey['k']] = 'babanta_database';
-$db['password'.$securekey['k']] = 'askfwQ1FEq';
-$db['database'.$securekey['k']] = 'babanta_cpmservices';
+$db['username'.$securekey['k']] = '';
+$db['password'.$securekey['k']] = '';
+$db['database'.$securekey['k']] = '';
 
 ?>
