@@ -2,7 +2,7 @@
 Web advertising service and traffic management
 
 ## Tecnologias
-PHP5 nativo, CSS3, Bootstrap 3, jQuery 1.8.
+PHP5, CSS3, Bootstrap 3, jQuery 1.8, Smarty.
 
 ## Funcionamiento
 Nuestro principal objetivo fue el de desarrollar una plataforma viable para los clientes que fuera simple de usar y optimizada para todas las conexiones debido al altro flujo de trafico desde las noticias y la de los nuevos anunciantes en nuestras diferentes redes.
